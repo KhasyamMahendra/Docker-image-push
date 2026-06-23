@@ -1,5 +1,5 @@
 # Use Ubuntu 22.04 LTS base image (better support for tools)
-FROM ubuntu:22.04
+FROM ubuntu:latest
 
 # Prevent interactive prompts during build
 ENV DEBIAN_FRONTEND=noninteractive
